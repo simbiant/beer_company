@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9920c3b9-7a32-4adc-8b9a-dade93aa1dc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/MainCacheRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/MainRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Sock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Vacancy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/VacancyObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Strategy/IPaymentSystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Strategy/Payout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Strategy/QiwiPaymentSystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Strategy/YandexPaymentSystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/Functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/Viewer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Services/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +125,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Strategy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Services" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -142,13 +133,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Services" />
+      <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Controllers" />
       <recent name="C:\Git\OpenServer\domains\beer_company\app\Strategy" />
       <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Controllers\Auth" />
-      <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Controllers" />
       <recent name="C:\Git\OpenServer\domains\beer_company\app\Models" />
-      <recent name="C:\Git\OpenServer\domains\beer_company\app\Repositories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Services" />
       <recent name="C:\Git\OpenServer\domains\beer_company\app\Http\Controllers" />
       <recent name="C:\Git\OpenServer\domains\beer_company\app\Models" />
     </key>
@@ -174,7 +166,8 @@
       <workItem from="1630953277055" duration="1106000" />
       <workItem from="1631290235225" duration="5000000" />
       <workItem from="1631647706307" duration="3237000" />
-      <workItem from="1632228231836" duration="4470000" />
+      <workItem from="1632228231836" duration="4707000" />
+      <workItem from="1632846652967" duration="2363000" />
     </task>
     <servers />
   </component>
@@ -191,5 +184,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
